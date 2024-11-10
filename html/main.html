@@ -9,51 +9,62 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__name-div">
-        <a class="header__name" href="./index.html">Sofia.</a>
+      <div class="header__name">
+        <a href="./index.html">Sofia.</a>
       </div>
 
-      <nav class="header__navbar">
-        <ul class="header__navbar-list">
-          <li class="header__navbar-item">
-            <a class="header__navbar-link" href="./index.html">Início</a>
+      <nav class="navbar">
+        <ul class="navbar__list">
+          <li class="navbar__item">
+            <a class="navbar__link" href="./main.html#aboutme">Início</a>
           </li>
-          <li class="header__navbar-item">
-            <a class="header__navbar-link" href="./main.html#aboutme">Sobre</a>
+          <li class="navbar__item">
+            <a class="navbar__link" href="./main.html#aboutme">Sobre</a>
           </li>
-          <li class="header__navbar-item">
-            <a class="header__navbar-link" href="./main.html#academics"
-              >Acadêmico</a
+          <li class="navbar__item">
+            <a class="navbar__link" href="./main.html#academics">Acadêmico</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="./main.html#projects-portfolio"
+              >Projetos</a
             >
           </li>
-          <li class="header__navbar-item">
-            <a class="header__navbar-link" href="./projects.html">Projetos</a>
-          </li>
-          <li class="header__navbar-item">
-            <a class="header__navbar-link" href="./main.html#contact"
-              >Contato</a
-            >
+          <li class="navbar__item">
+            <a class="navbar__link" href="./main.html#contact">Contato</a>
           </li>
         </ul>
       </nav>
     </header>
 
     <main class="main">
-      <section class="main__aboutme">
-        <div class="main__aboutme-wrapper">
+      <section class="about">
+        <div class="about__wrapper">
           <h2 id="aboutme">Sobre Mim</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-            saepe iste a! Eveniet alias laboriosam repellendus cum dolorum,
-            blanditiis eum! Impedit est assumenda quos laborum iusto. Cupiditate
-            voluptatibus expedita eius! Nisi id hic mollitia magnam ipsum natus
-            consequatur, perferendis modi possimus, aliquam provident laborum
-            veritatis molestiae officiis earum. Assumenda et incidunt libero
-            rem! Obcaecati quas voluptatibus molestiae sequi illo itaque?
-          </p>
+          <div class="about__text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+              saepe iste a! Eveniet alias laboriosam repellendus cum dolorum,
+              blanditiis eum! Impedit est assumenda quos laborum iusto.
+              Cupiditate voluptatibus expedita eius! Nisi id hic mollitia magnam
+              ipsum natus consequatur, perferendis modi possimus, aliquam
+              provident laborum veritatis molestiae officiis earum. Assumenda et
+              incidunt libero rem! Obcaecati quas voluptatibus molestiae sequi
+              illo itaque?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+              saepe iste a! Eveniet alias laboriosam repellendus cum dolorum,
+              blanditiis eum! Impedit est assumenda quos laborum iusto.
+              Cupiditate voluptatibus expedita eius! Nisi id hic mollitia magnam
+              ipsum natus consequatur, perferendis modi possimus, aliquam
+              provident laborum veritatis molestiae officiis earum. Assumenda et
+              incidunt libero rem! Obcaecati quas voluptatibus molestiae sequi
+              illo itaque?
+            </p>
+          </div>
         </div>
 
-        <div class="main__aboutme-lists">
+        <div class="about__lists">
           <div>
             <h3>Habilidades Atuais</h3>
             <ul>
@@ -80,13 +91,13 @@
         </div>
       </section>
 
-      <section class="main__projects">
+      <section class="projects">
         <h2 id="projects-portfolio">Portfólio de Projetos</h2>
 
-        <div class="main__projects-projects">
-          <div class="main__projects-options">
-            <a href="">
-              <h3>Project name</h3>
+        <div class="projects__projects">
+          <a href="./projects.html">
+            <div class="projects__options">
+              <h4>Project name</h4>
               <img
                 src="https://codingweek.org/wp-content/uploads/2023/09/chris-ried-ieic5Tq8YMk-unsplash-scaled.jpg"
                 alt=""
@@ -97,12 +108,12 @@
                 dolores harum, perspiciatis dicta architecto veritatis deserunt,
                 sequi magnam commodi aliquid minus molestiae?
               </p>
-            </a>
-          </div>
+            </div>
+          </a>
 
-          <div class="main__projects-options">
-            <a href="">
-              <h3>Project name</h3>
+          <a href="./projects.html">
+            <div class="projects__options">
+              <h4>Project name</h4>
               <img
                 src="https://codingweek.org/wp-content/uploads/2023/09/chris-ried-ieic5Tq8YMk-unsplash-scaled.jpg"
                 alt=""
@@ -113,12 +124,12 @@
                 dolores harum, perspiciatis dicta architecto veritatis deserunt,
                 sequi magnam commodi aliquid minus molestiae?
               </p>
-            </a>
-          </div>
+            </div>
+          </a>
 
-          <div class="main__projects-options">
-            <a href="">
-              <h3>Project name</h3>
+          <a href="./projects.html">
+            <div class="projects__options">
+              <h4>Project name</h4>
               <img
                 src="https://codingweek.org/wp-content/uploads/2023/09/chris-ried-ieic5Tq8YMk-unsplash-scaled.jpg"
                 alt=""
@@ -129,75 +140,79 @@
                 dolores harum, perspiciatis dicta architecto veritatis deserunt,
                 sequi magnam commodi aliquid minus molestiae?
               </p>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
 
-        <a href="./projects.html">Visite a página completa de projetos</a>
+        <a class="projects__more" href="./projects.html"
+          >Visite a página completa de projetos</a
+        >
       </section>
 
-      <section class="main__academics">
+      <section class="academics">
         <h2 id="academics">Experiência Acadêmica</h2>
         <p>
           Cursando segundo semestre do curso superior de Análise e
           Desenvolvimento de Sistemas no Instituto Federal de Santa Catarina.
         </p>
 
-        <h3>Grade de Aulas</h3>
-        <table class="main__academics-schedule">
-          <caption>
-            Horários de Aula ADS - IFSC 2024.2
-          </caption>
-          <tr>
-            <th rowspan="6">HORÁRIOS</th>
-            <th scope="col" colspan="7">DIAS DA SEMANA</th>
-          </tr>
-          <tr>
-            <th scope="col"></th>
-            <th scope="col">SEG</th>
-            <th scope="col">TER</th>
-            <th scope="col">QUA</th>
-            <th scope="col">QUI</th>
-            <th scope="col">SEX</th>
-          </tr>
-          <tr>
-            <th>18:30</th>
-            <td>EST</td>
-            <td>FEI</td>
-            <td>AEI</td>
-            <td>FEI</td>
-            <td>RED</td>
-          </tr>
-          <tr>
-            <th>19:25</th>
-            <td>EST</td>
-            <td>FEI</td>
-            <td>AEI</td>
-            <td>FEI</td>
-            <td>RED</td>
-          </tr>
-          <tr>
-            <th>20:40</th>
-            <td>COE</td>
-            <td>POO</td>
-            <td>EST</td>
-            <td>POO</td>
-            <td>RED</td>
-          </tr>
-          <tr>
-            <th>21:35</th>
-            <td>COE</td>
-            <td>POO</td>
-            <td>EST</td>
-            <td>POO</td>
-            <td>RED</td>
-          </tr>
-        </table>
+        <div class="academics__schedule">
+          <h3>Grade de Aulas</h3>
+          <table>
+            <caption>
+              Horários de Aula ADS - IFSC 2024.2
+            </caption>
+            <tr>
+              <th rowspan="6">HORÁRIOS</th>
+              <th scope="col" colspan="7">DIAS DA SEMANA</th>
+            </tr>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">SEG</th>
+              <th scope="col">TER</th>
+              <th scope="col">QUA</th>
+              <th scope="col">QUI</th>
+              <th scope="col">SEX</th>
+            </tr>
+            <tr>
+              <th>18:30</th>
+              <td>EST</td>
+              <td>FEI</td>
+              <td>AEI</td>
+              <td>FEI</td>
+              <td>RED</td>
+            </tr>
+            <tr>
+              <th>19:25</th>
+              <td>EST</td>
+              <td>FEI</td>
+              <td>AEI</td>
+              <td>FEI</td>
+              <td>RED</td>
+            </tr>
+            <tr>
+              <th>20:40</th>
+              <td>COE</td>
+              <td>POO</td>
+              <td>EST</td>
+              <td>POO</td>
+              <td>RED</td>
+            </tr>
+            <tr>
+              <th>21:35</th>
+              <td>COE</td>
+              <td>POO</td>
+              <td>EST</td>
+              <td>POO</td>
+              <td>RED</td>
+            </tr>
+          </table>
+        </div>
 
-        <div class="main__academics-majoring">
-          <div class="main__academics-professors">
+        <div class="academics__majoring">
+          <div class="academics__professors">
             <h3>Professores Atuais</h3>
-            <dl class="main__academics-professors-list">
+            <dl>
               <dt><strong>ATIVIDADE DE EXTENSÃO I</strong></dt>
               <dd>
                 <a href="http://lattes.cnpq.br/0916545233469122"
@@ -249,9 +264,9 @@
             </dl>
           </div>
 
-          <div class="main__academics-classes">
-            <h4>Disciplinas Estudadas Anteriormente</h4>
-            <ul class="main__academics-classes-list">
+          <div class="academics__classes">
+            <h3>Disciplinas Estudadas Anteriormente</h3>
+            <ul>
               <li>Arquitetura de Compuradores</li>
               <li>Algoritmos e Pensamento Computacional</li>
               <li>Introdução à Computação</li>
@@ -265,114 +280,100 @@
     </main>
 
     <footer class="footer">
-      <div class="footer__info">
-        <section class="footer__contact-links">
-          <h3 id="contact" class="footer__navbar-tittle">Navegação</h3>
-          <nav class="footer__navbar">
-            <ul class="footer__navbar-list">
-              <li class="footer__navbar-item">
-                <a class="footer__navbar-link" href="./index.html">Início</a>
+      <div class="contact">
+        <section class="contact__hyperlinks">
+          <nav class="contact__navbar">
+            <h4 id="contact">Navegação</h4>
+            <ul>
+              <li>
+                <a href="./main.html#aboutme">Início</a>
               </li>
-              <li class="footer__navbar-item">
-                <a class="footer__navbar-link" href="./main.html">Sobre</a>
+              <li>
+                <a href="./main.html#aboutme">Sobre</a>
               </li>
-              <li class="footer__navbar-item">
-                <a class="footer__navbar-link" href="./main.html">Academico</a>
+              <li>
+                <a href="./main.html#academics">Acadêmico</a>
               </li>
-              <li class="footer__navbar-item">
-                <a class="footer__navbar-link" href="./projects.html"
-                  >Projetos</a
-                >
+              <li>
+                <a href="./main.html#projects-portfolio">Projetos</a>
               </li>
-              <li class="footer__navbar-item">
-                <a class="footer__navbar-link" href="./main.html">Contato</a>
+              <li>
+                <a href="./main.html#contact">Contato</a>
               </li>
             </ul>
           </nav>
 
-          <div class="footer__media">
-            <h3 class="footer__media-tittle">Redes Sociais</h3>
-            <ul class="footer__media-list">
-              <li class="footer__media-item">
-                <a class="footer__media-link" href="">
-                  <img
-                    class="footer__media-icon"
-                    src="../img/icons/linkedin.png"
-                    alt=""
-                  />
+          <div class="contact__media">
+            <h4>Redes Sociais</h4>
+            <ul>
+              <li>
+                <a href="">
+                  <img src="../img/icons/linkedin.png" alt="" />
                 </a>
               </li>
-              <li class="footer__media-item">
-                <a class="footer__media-link" href="">
-                  <img
-                    class="footer__media-icon"
-                    src="../img/icons/linkedin.png"
-                    alt=""
-                  />
+              <li>
+                <a href="">
+                  <img src="../img/icons/linkedin.png" alt="" />
                 </a>
               </li>
-              <li class="footer__media-item">
-                <a class="footer__media-link" href="">
-                  <img
-                    class="footer__media-icon"
-                    src="../img/icons/linkedin.png"
-                    alt=""
-                  />
+              <li>
+                <a href="">
+                  <img src="../img/icons/linkedin.png" alt="" />
                 </a>
               </li>
-              <li class="footer__media-item">
-                <a class="footer__media-link" href="">
-                  <img
-                    class="footer__media-icon"
-                    src="../img/icons/linkedin.png"
-                    alt=""
-                  />
+              <li>
+                <a href="">
+                  <img src="../img/icons/linkedin.png" alt="" />
                 </a>
               </li>
             </ul>
           </div>
         </section>
 
-        <form class="footer__contact-email">
-          <h3 class="footer__contact-tittle">Entre em Contato</h3>
+        <form class="contact__forms">
+          <h4 class="forms__tittle">Entre em Contato</h4>
 
-          <div class="footer__contact-input">
-            <label class="footer__contact-label" for="name">Nome</label>
+          <div class="forms__input">
+            <label class="forms__label" for="name">NOME</label>
             <input
               id="name"
-              class="footer__contact-textbox"
+              class="forms__textbox"
               type="text"
-              placeholder="Nome"
+              placeholder="Sofia Alves Toreti"
             />
           </div>
 
-          <div class="footer__contact-input">
-            <label class="footer__contact-label" for="email">Email</label>
+          <div class="forms__input">
+            <label class="forms__label" for="email">EMAIL</label>
             <input
               id="email"
-              class="footer__contact-textbox"
+              class="forms__textbox"
               type="text"
-              placeholder="Email"
+              placeholder="sofia.a2005@aluno.ifsc.edu.br"
             />
           </div>
 
-          <div class="footer__contact-input">
-            <label class="footer__contact-label" for="subject">Assunto</label>
+          <div class="forms__input">
+            <label class="forms__label" for="subject">ASSUNTO</label>
             <input
               id="subject"
-              class="footer__contact-textbox"
+              class="forms__textbox"
               type="text"
-              placeholder="Assunto"
+              placeholder="Projeto de Front 1"
             />
           </div>
 
-          <div class="footer__contact-input">
-            <label class="footer__contact-label" for="message">Mensagem</label>
+          <div class="forms__input">
+            <label class="forms__label" for="message">MENSSAGEM</label>
             <textarea
               id="message"
-              class="footer__contact-textbox"
-              placeholder="Mensagem"
+              class="forms__textbox"
+              placeholder="Professor, me dá 10 eu tô a dois dias sem dormir."
             ></textarea>
+          </div>
+
+          <div class="forms__button">
+            <button type="submit">ENVIAR</button>
           </div>
         </form>
       </div>

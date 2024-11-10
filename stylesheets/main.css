@@ -6,17 +6,44 @@
 @import url(./footer.css);
 
 .main {
-  margin: 150px 300px 0px;
+  width: 60vw;
+  margin: 150px 20vw 0px;
 }
 
 .header {
   background-color: var(--black);
+  z-index: 1;
 }
 
-.footer__media-icon {
-  height: 18px;
+h2 {
+  text-align: center;
+  font-size: 52px;
+  margin-bottom: 30px;
+
+  transition: 0.3s ease-in-out;
 }
 
-.main__projects-options img {
-  height: 300px;
+h2:hover {
+  color: var(--accent-color);
+  transform: scale(102%);
+}
+
+h3,
+h4 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  transition: 0.3s ease-in-out;
+}
+
+h3:hover {
+  color: var(--accent-color);
+  transform: scale(102%);
+}
+
+p,
+a {
+  line-height: 150%;
 }

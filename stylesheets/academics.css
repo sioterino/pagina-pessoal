@@ -1,30 +1,84 @@
-.main__academics {
-  margin-bottom: 200px;
+.academics {
+  margin-bottom: var(--section-margin);
 }
 
-.main__academics p {
-  margin-bottom: 50px;
+.academics p {
+  margin: 0px 15vw 3em;
+  text-align: center;
 }
 
-.main__academics-schedule {
-  margin-bottom: 50px;
+.academics__schedule {
+  margin-bottom: 3em;
 
-  width: 40%;
+  display: flex;
+  flex-direction: column;
+
   border-collapse: collapse;
 }
 
-.main__academics-majoring {
-  display: flex;
-  justify-content: space-around;
+.academics__schedule h3 {
+  text-align: center;
 }
 
-th,
+.academics__schedule table {
+  width: 60%;
+  margin: 10px auto;
+}
+
+.academics__schedule th,
 td {
   border: 3px solid var(--black);
   padding: 8px;
   text-align: center;
 }
 
-th {
+.academics__schedule th {
   background-color: var(--primary-color);
+}
+
+.academics__majoring {
+  display: flex;
+  justify-content: center;
+  gap: 4vw;
+
+  border: 1px solid var(--accent-color);
+  border-radius: 30px;
+  padding: 3em 0px;
+
+  transition: border 0.3s ease-in-out;
+}
+
+.academics__professors dt {
+  margin-top: 16px;
+}
+
+.academics__professors dd {
+  position: relative;
+  left: 1em;
+  transition: 0.3s ease-in-out;
+}
+
+.academics__professors dd:hover {
+  transform: translateX(1em);
+}
+
+.academics__professors a {
+  color: var(--accent-color);
+}
+
+.academics__classes ul {
+  list-style: circle;
+  line-height: 200%;
+
+  position: relative;
+  left: 20px;
+}
+
+.academics__classes li {
+  transition: 0.2s ease-in-out;
+}
+
+.academics__classes li:hover {
+  color: var(--accent-color);
+  transform: scale(102%);
 }

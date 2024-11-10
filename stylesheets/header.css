@@ -11,8 +11,15 @@
   padding: 20px 0px;
 }
 
-/* TODO: TITTLE CSS */
 .header__name {
+  transition: 0.3s ease-in-out;
+}
+
+.header__name:hover {
+  transform: scale(105%);
+}
+
+.header__name a {
   font-size: 50px;
   font-weight: 600;
   color: var(--white);
@@ -20,35 +27,26 @@
   transition: 0.3s ease-in-out;
 }
 
-.header__name:hover {
+.header__name a:hover {
   color: var(--secondary-color);
 }
 
-.header__name-div {
-  transition: 0.3s ease-in-out;
-}
-
-.header__name-div:hover {
-  transform: scale(105%);
-}
-
-/* TODO: NAVBAR CSS */
-.header__navbar-list {
+.navbar__list {
   display: flex;
 }
 
-.header__navbar-item {
+.navbar__item {
   list-style: none;
   font-size: 24px;
 
   transition: 0.3s ease-in-out;
 }
 
-.header__navbar-item:hover {
+.navbar__item:hover {
   transform: scale(103%) translateY(-5px);
 }
 
-.header__navbar-link {
+.navbar__link {
   color: var(--white);
   text-decoration: none;
   padding: 34px 30px;
@@ -56,6 +54,6 @@
   transition: 0.3s ease-in-out;
 }
 
-.header__navbar-link:hover {
+.navbar__link:hover {
   color: var(--secondary-color);
 }

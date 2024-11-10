@@ -1,12 +1,43 @@
-.main__aboutme {
-  margin-bottom: 200px;
+.about {
+  margin-bottom: var(--section-margin);
 }
 
-.main__aboutme-wrapper {
-  margin-bottom: 50px;
+.about__wrapper {
+  margin: 0px 5vw 50px;
 }
 
-.main__aboutme-lists {
+.about__wrapper p {
+  margin: 0px 1vw;
+}
+
+.about__text {
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.about__lists {
+  display: flex;
+  justify-content: center;
+  gap: 10vw;
+
+  border: 1px solid var(--accent-color);
+  border-radius: 30px;
+  padding: 50px 0px;
+
+  transition: border 0.3s ease-in-out;
+}
+
+.about__lists ul {
+  list-style: circle;
+  line-height: 200%;
+}
+
+.about__lists li {
+  transition: 0.2s ease-in-out;
+}
+
+.about__lists li:hover {
+  color: var(--accent-color);
+  transform: scale(102%);
 }

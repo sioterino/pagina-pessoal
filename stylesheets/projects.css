@@ -1,8 +1,57 @@
-.main__projects {
-  margin-bottom: 200px;
+.projects {
+  margin-bottom: var(--section-margin);
+  text-align: center;
 }
 
-.main__projects-projects {
+.projects__projects {
   display: flex;
   justify-content: center;
+  gap: 50px;
+}
+
+.projects__projects a {
+  margin: 50px 0px;
+}
+
+.projects__options {
+  padding: 30px;
+  border-radius: 30px;
+  background-color: var(--white);
+  color: var(--black);
+  cursor: pointer;
+
+  transition: 0.3s ease-in-out;
+}
+
+.projects__options h4,
+img,
+p {
+  cursor: pointer;
+}
+
+.projects__options:hover {
+  transform: translateY(-20px);
+  color: var(--primary-color);
+}
+
+.projects__options img {
+  border-radius: 15px;
+  height: 150px;
+}
+
+.projects__options p {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.projects__more {
+  font-size: 24px;
+
+  transition: 0.2s ease-in-out;
+}
+
+.projects__more:hover {
+  text-decoration: underline;
+  text-underline-offset: 7px;
+  color: var(--accent-color);
 }

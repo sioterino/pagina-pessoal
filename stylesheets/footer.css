@@ -1,10 +1,150 @@
 .footer {
   background-color: var(--primary-color);
-  padding: 50px 500px;
+  padding: 4em 0px 1.5em;
+
+  cursor: default;
 }
 
-.footer__info {
+.footer a {
+  cursor: pointer;
+}
+
+.contact {
+  cursor: default;
+  width: 60vw;
+  margin: 0px 20vw 3em;
+
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 50px;
+  justify-content: center;
+  gap: 10em;
+}
+
+.contact__hyperlinks {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3.5em;
+  text-align: end;
+}
+
+.contact__navbar {
+  margin-bottom: 25px;
+}
+
+.contact__navbar ul {
+  list-style: none;
+}
+
+.contact__navbar li {
+  margin-top: 0.4em;
+  transition: 0.2s ease-in-out;
+}
+
+.contact__navbar li:hover {
+  transform: scale(102%);
+}
+
+.contact__navbar a {
+  font-size: 1.2em;
+  transition: 0.2s ease-in-out;
+}
+
+.contact__navbar a:hover {
+  color: darkblue;
+}
+
+.contact__media ul {
+  list-style: none;
+  display: flex;
+}
+
+.contact__media li {
+  padding-left: 20px;
+}
+
+.contact__media img {
+  height: 30px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.contact__media img:hover {
+  transform: scale(103%);
+}
+
+.contact__forms {
+  /* background-color: red; */
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.forms__input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+}
+
+.forms__input label {
+  margin-bottom: 0.4em;
+}
+
+.forms__input input {
+  font-size: 1em;
+  height: 2em;
+  background-color: transparent;
+  color: var(--secondary-color);
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--white);
+}
+
+.forms__input input::placeholder {
+  color: rgba(0, 0, 139, 0.5);
+  font-family: var(--sans-font);
+}
+
+.forms__input textarea {
+  font-size: 1em;
+  height: 5em;
+  background-color: transparent;
+  color: var(--secondary-color);
+  font-family: var(--sans-font);
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--white);
+}
+
+.forms__input textarea::placeholder {
+  color: rgba(0, 0, 139, 0.5);
+  font-family: var(--sans-font);
+}
+
+.forms__button button {
+  font-size: 1em;
+  font-weight: 600;
+  padding: 0.8em 1.5em;
+  background-color: transparent;
+  border: 2px solid var(--white);
+  border-radius: 30px;
+  color: var(--white);
+
+  transition: 0.2s ease-in-out;
+}
+
+.forms__button button:hover {
+  background-color: var(--white);
+  color: var(--primary-color);
+}
+
+.forms__button {
+  margin-top: 1.5em;
+  width: min-content;
+  align-self: flex-end;
+}
+
+.footer__goodbye {
+  text-align: center;
+  color: darkblue;
 }

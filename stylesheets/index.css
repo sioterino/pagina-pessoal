@@ -8,6 +8,8 @@
   --white: white;
 
   --sans-font: "Helvetica";
+
+  --section-margin: 150px;
 }
 
 * {
@@ -17,6 +19,17 @@
 
   scroll-behavior: smooth;
   scroll-margin-top: 150px;
+  cursor: default;
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+button,
+a {
+  cursor: pointer;
 }
 
 body {
