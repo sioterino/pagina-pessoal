@@ -1,0 +1,12 @@
+.main__aboutme {
+  margin-bottom: 200px;
+}
+
+.main__aboutme-wrapper {
+  margin-bottom: 50px;
+}
+
+.main__aboutme-lists {
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,0 +1,8 @@
+.main__projects {
+  margin-bottom: 200px;
+}
+
+.main__projects-projects {
+  display: flex;
+  justify-content: center;
+}

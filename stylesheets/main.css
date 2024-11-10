@@ -1,0 +1,22 @@
+@import url(./header.css);
+@import url(./index.css);
+@import url(./aboutme.css);
+@import url(./projects.css);
+@import url(./academics.css);
+@import url(./footer.css);
+
+.main {
+  margin: 150px 300px 0px;
+}
+
+.header {
+  background-color: var(--black);
+}
+
+.footer__media-icon {
+  height: 18px;
+}
+
+.main__projects-options img {
+  height: 300px;
+}

@@ -1,0 +1,30 @@
+.main__academics {
+  margin-bottom: 200px;
+}
+
+.main__academics p {
+  margin-bottom: 50px;
+}
+
+.main__academics-schedule {
+  margin-bottom: 50px;
+
+  width: 40%;
+  border-collapse: collapse;
+}
+
+.main__academics-majoring {
+  display: flex;
+  justify-content: space-around;
+}
+
+th,
+td {
+  border: 3px solid var(--black);
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: var(--primary-color);
+}
