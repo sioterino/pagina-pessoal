@@ -1,0 +1,81 @@
+@import url(./header.css);
+@import url(./index.css);
+@import url(./footer.css);
+
+.main {
+  width: 70vw;
+  margin: 150px 15vw 150px;
+}
+
+.header {
+  background-color: var(--black);
+  z-index: 1;
+}
+
+h2 {
+  text-align: center;
+  font-size: 52px;
+  margin-bottom: 30px;
+
+  transition: 0.3s ease-in-out;
+}
+
+h2:hover {
+  color: var(--accent-color);
+  transform: scale(102%);
+}
+
+h3,
+h4 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  transition: 0.3s ease-in-out;
+}
+
+h3:hover {
+  color: var(--accent-color);
+  transform: scale(102%);
+}
+
+p,
+a {
+  line-height: 150%;
+}
+
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(2, 34vw);
+  grid-auto-rows: auto;
+  justify-content: space-between;
+  row-gap: 5em;
+}
+
+.project {
+  background-color: var(--white);
+  border-radius: 30px;
+  display: flex;
+  padding: 2em;
+}
+
+.project__image {
+  height: 300px;
+  margin-right: 2em;
+}
+
+.project__info img {
+  height: 30px;
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+.project__info a {
+  background-color: red;
+}
+
+.project__info h4,
+p {
+  color: var(--black);
+}
