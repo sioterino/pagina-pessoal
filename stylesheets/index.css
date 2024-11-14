@@ -1,11 +1,11 @@
 @import url(./header.css);
 
 :root {
-  --primary-color: rgb(0, 102, 255);
-  --secondary-color: gold;
-  --accent-color: rgb(0, 255, 0);
-  --black: black;
-  --white: white;
+  --primary-color: #ffc400;
+  --secondary-color: #0091ff;
+  --accent-color: #ff5003;
+  --black: #090501;
+  --white: #fefefb;
 
   --sans-font: "Helvetica";
 

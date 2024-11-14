@@ -6,7 +6,12 @@
 }
 
 .footer a {
+  color: var(--black);
   cursor: pointer;
+}
+
+.footer h4 {
+  color: var(--black);
 }
 
 .contact {
@@ -38,7 +43,7 @@
 
 .contact__navbar li {
   margin-top: 0.4em;
-  transition: 0.2s ease-in-out;
+  transition: 0.1s ease-in-out;
 }
 
 .contact__navbar li:hover {
@@ -47,11 +52,11 @@
 
 .contact__navbar a {
   font-size: 1.2em;
-  transition: 0.2s ease-in-out;
+  transition: 0.1s ease-in-out;
 }
 
 .contact__navbar a:hover {
-  color: darkblue;
+  color: var(--accent-color);
 }
 
 .contact__media ul {
@@ -69,15 +74,26 @@
   cursor: pointer;
 }
 
+#tumblr img {
+  height: 33px;
+}
+
+#linkedin {
+  padding-left: 16px;
+}
+
 .contact__media img:hover {
-  transform: scale(103%);
+  transform: scale(110%);
 }
 
 .contact__forms {
-  /* background-color: red; */
   width: 25vw;
   display: flex;
   flex-direction: column;
+}
+
+.forms__label {
+  color: var(--black);
 }
 
 .forms__input {
@@ -94,14 +110,15 @@
   font-size: 1em;
   height: 2em;
   background-color: transparent;
-  color: var(--secondary-color);
+  color: rgba(0, 0, 0, .7);
   border: none;
   outline: none;
-  border-bottom: 2px solid var(--white);
+  border-bottom: 2px solid var(--black);
+  cursor:text;
 }
 
 .forms__input input::placeholder {
-  color: rgba(0, 0, 139, 0.5);
+  color: goldenrod;
   font-family: var(--sans-font);
 }
 
@@ -109,15 +126,16 @@
   font-size: 1em;
   height: 5em;
   background-color: transparent;
-  color: var(--secondary-color);
+  color: rgba(0, 0, 0, .7);
   font-family: var(--sans-font);
   border: none;
   outline: none;
-  border-bottom: 2px solid var(--white);
+  border-bottom: 2px solid var(--black);
+  cursor:text;
 }
 
 .forms__input textarea::placeholder {
-  color: rgba(0, 0, 139, 0.5);
+  color: goldenrod;
   font-family: var(--sans-font);
 }
 
@@ -126,15 +144,15 @@
   font-weight: 600;
   padding: 0.8em 1.5em;
   background-color: transparent;
-  border: 2px solid var(--white);
+  border: 2px solid var(--black);
   border-radius: 30px;
-  color: var(--white);
+  color: var(--black);
 
   transition: 0.2s ease-in-out;
 }
 
 .forms__button button:hover {
-  background-color: var(--white);
+  background-color: var(--black);
   color: var(--primary-color);
 }
 
@@ -146,5 +164,5 @@
 
 .footer__goodbye {
   text-align: center;
-  color: darkblue;
+  color: goldenrod;
 }

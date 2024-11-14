@@ -21,7 +21,7 @@
   justify-content: center;
   gap: 10vw;
 
-  border: 1px solid var(--accent-color);
+  border: 1px solid var(--primary-color);
   border-radius: 30px;
   padding: 50px 0px;
 
@@ -38,6 +38,15 @@
 }
 
 .about__lists li:hover {
-  color: var(--accent-color);
+  color: var(--primary-color);
   transform: scale(102%);
 }
+
+.about strong {
+  color: var(--primary-color);
+}
+
+.about em {
+  color: var(--secondary-color);
+}
+

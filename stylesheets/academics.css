@@ -27,7 +27,7 @@
 
 .academics__schedule th,
 td {
-  border: 3px solid var(--black);
+  border: 1px solid var(--black);
   padding: 8px;
   text-align: center;
 }
@@ -41,7 +41,7 @@ td {
   justify-content: center;
   gap: 4vw;
 
-  border: 1px solid var(--accent-color);
+  border: 1px solid var(--primary-color);
   border-radius: 30px;
   padding: 3em 0px;
 
@@ -63,7 +63,7 @@ td {
 }
 
 .academics__professors a {
-  color: var(--accent-color);
+  color: var(--primary-color);
 }
 
 .academics__classes ul {
@@ -79,6 +79,6 @@ td {
 }
 
 .academics__classes li:hover {
-  color: var(--accent-color);
+  color: var(--primary-color);
   transform: scale(102%);
 }

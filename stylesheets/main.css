@@ -10,11 +10,6 @@
   margin: 150px 20vw 0px;
 }
 
-.header {
-  background-color: var(--black);
-  z-index: 1;
-}
-
 h2 {
   text-align: center;
   font-size: 52px;
@@ -24,7 +19,7 @@ h2 {
 }
 
 h2:hover {
-  color: var(--accent-color);
+  color: var(--primary-color);
   transform: scale(102%);
 }
 
@@ -39,7 +34,7 @@ h3 {
 }
 
 h3:hover {
-  color: var(--accent-color);
+  color: var(--primary-color);
   transform: scale(102%);
 }
 

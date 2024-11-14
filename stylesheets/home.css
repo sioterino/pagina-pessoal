@@ -1,5 +1,5 @@
 .main {
-  margin: 0px 200px;
+  margin: 0px 11vw;
   margin-top: 100px;
   position: relative;
 
@@ -10,7 +10,7 @@
   justify-content: space-between;
   align-items: center;
 
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--secondary-color);
   border-radius: 70px;
 }
 
@@ -18,7 +18,7 @@
   font-size: 80px;
   line-height: 0.95;
   margin-bottom: 15px;
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .main__tittle {
@@ -30,7 +30,7 @@
 }
 
 .main__subtittle {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-size: 26px;
   font-weight: 500;
 
@@ -52,19 +52,19 @@
 }
 
 .main__button a {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   text-decoration: none;
   font-size: 24px;
   font-weight: 600;
 
   padding: 20px;
-  border: 3px solid var(--secondary-color);
+  border: 3px solid var(--primary-color);
   border-radius: 30px;
   transition: 0.2s ease-in-out;
 }
 
 .main__button a:hover {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   color: var(--black);
 }
 
@@ -90,5 +90,5 @@
 }
 
 .image:hover {
-  transform: scale(102%);
+  transform: scale(103%);
 }
