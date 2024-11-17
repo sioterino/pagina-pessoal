@@ -1,46 +1,56 @@
-@media screen and (max-width: 800px) {
-    .contact {
-        display: block;
-        width: 80vw;
-        margin: 0px 10vw;
-    }
-
-    .contact__hyperlinks {
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 50px;
-    }
-
-    .contact__media ul {
-        display: block;
-    }
-
-    .contact__media li {
-        text-align: left;
-        padding: 5px 15px;
-    }
-
-    .contact__navbar li {
-        margin: 10px 0px;
-    }
-
-    .contact__forms {
-        width: 100%;
-    }
-
-    .contact__forms h4 {
-        text-align: center;
-    }
-}
-
-@media screen and (min-width: 800px) and (max-width: 1300px) {
+@media screen and (max-width: 1600px) {
     .contact {
         width: 90vw;
         margin: 0px 5vw 3em;
-        gap: 5vw;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .contact__forms {
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    label,
+    .forms__button {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .contact__media ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact__media li {
+        padding: 0px;
+        padding-bottom: 6px;
+        text-align: center;
+    }
+
+    #linkedin {
+        padding-left: 2px;
+        text-align: center;
+
+    }
+
+    
+    .contact__hyperlinks {
+        display: flex;
+        flex-direction: row;
     }
 
     .contact__forms {
-        width: 40%;
+        width: 70vw;
     }
-}
+} 

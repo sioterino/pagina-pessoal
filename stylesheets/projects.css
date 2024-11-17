@@ -52,6 +52,11 @@
 }
 
 .projects__more {
+  display: flex;
+  justify-content: center;
+}
+
+.projects__more p {
   font-size: 24px;
   color: var(--primary-color);
 }
@@ -65,7 +70,7 @@
   margin-left: 10px;
 }
 
-.projects__more:hover {
+.projects__more p:hover {
   text-decoration: underline;
   text-underline-offset: 7px;
 

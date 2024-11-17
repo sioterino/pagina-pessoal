@@ -4,31 +4,37 @@
 @import url(./mq_academics.css);
 @import url(./mq_footer.css);
 
-@media screen and (max-width: 600px) {
-    h2 {
-        font-size: 30px;
-        margin-bottom: 20px;
-    }
-    
-    h3 {
-        font-size: 20px;
-    }
-
-    h4 {
-        font-size: 20px;
-    }
-}
-
-@media screen and (min-width: 600px) and (max-width: 1000px) {
-    h2 {
-        font-size: 45px;
-        margin-bottom: 20px;
-    }
-}
-
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1800px) {
     .main {
-        width: 96vw;
-        margin: 150px 2vw;
+        width: 80vw;
+        margin: 150px 10vw 0px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .main {
+        width: 90vw;
+        margin: 150px 5vw 0px;
+    }   
+}
+
+@media screen and (max-width: 800px) {
+    .main {
+        width: 90vw;
+        margin: 130px 5vw 0px;
+    }   
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3, h4 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    h2 {
+        font-size: 35px;
     }
 }
