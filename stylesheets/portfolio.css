@@ -21,23 +21,20 @@ h2 {
 }
 
 h2:hover {
-  color: var(--accent-color);
+  color: var(--primary-color);
   transform: scale(102%);
-}
-
-h3,
-h4 {
-  font-size: 25px;
-  margin-bottom: 15px;
 }
 
 h3 {
-  transition: 0.3s ease-in-out;
+  color: var(--black);
+  font-size: 25px;
+  margin-bottom: 7px;
 }
 
-h3:hover {
-  color: var(--accent-color);
-  transform: scale(102%);
+h4 {
+  color: var(--black);
+  font-size: 17px;
+  margin-bottom: 15px;
 }
 
 p,
@@ -69,13 +66,18 @@ a {
 }
 
 .project__image {
-  height: 300px;
+  width: 250px;
   margin-right: 2em;
 }
 
 .project__info {
   display: flex;
   flex-direction: column;
+}
+
+.project__info p {
+  margin: .5em;
+  font-size: 14px;
 }
 
 .project__info img {
@@ -94,10 +96,21 @@ a {
   color: var(--black);
 }
 
+.arrow-blue-hover {
+  display: none;
+}
+
 .project__info a:hover {
-  /* color: var(--accent-color); */
+  color: var(--secondary-color);
   text-decoration: underline;
   text-underline-offset: 5px;
+
+  .arrow-blue-hover {
+    display: inline;
+  }
+  .arrow {
+    display: none;
+  }
 }
 
 .project__info h4,

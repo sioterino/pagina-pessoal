@@ -31,13 +31,19 @@
 }
 
 .projects__options:hover {
-  transform: translateY(-20px);
-  /* color: var(--secondary-color); */
+  transform: translateY(-40px);
 }
 
 .projects__options img {
   border-radius: 15px;
   height: 230px;
+  width: 345px;
+
+  object-fit: cover;
+}
+
+#scrambler {
+  object-fit: contain;
 }
 
 .projects__options p {
@@ -62,4 +68,8 @@
 .projects__more:hover {
   text-decoration: underline;
   text-underline-offset: 7px;
+
+  #arrow {
+    display: none;
+  }
 }
