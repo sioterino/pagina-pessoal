@@ -1,0 +1,26 @@
+@media screen and (max-width: 520px) {
+    
+    .header__name a {
+        font-size: 16px;
+    }
+
+    .navbar__link {
+        font-size: 12px;
+        padding: 0px 10px;
+    }
+}
+
+@media screen and (min-width: 520px) and (max-width: 1000px) {
+    .header {
+        margin-left: 10px;
+    }
+    
+    .header__name a {
+        font-size: 24px;
+    }
+
+    .navbar__link {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+}

@@ -44,10 +44,10 @@ a {
 
 .portfolio {
   display: grid;
-  grid-template-columns: repeat(2, 34vw); 
+  grid-template-columns: repeat(2, 2fr); 
   grid-auto-rows: auto;
   justify-content: space-between;
-  row-gap: 3em;
+  gap: 3em;
 }
 
 .project {

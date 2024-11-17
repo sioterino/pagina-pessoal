@@ -1,0 +1,62 @@
+@import url(./mq_header.css);
+@import url(./mq_footer.css);
+
+@media screen and (max-width: 550px) {
+    .project__image {
+        display: none;
+    }
+    .main h2 {
+        font-size: 35px;
+    }
+}
+
+
+@media screen and (max-width: 1500px) {
+    .main {
+        width: 96vw;
+        margin: 150px 2vw;
+    }
+
+    .main h2 {
+        margin-bottom: 70px;
+    }
+
+    .portfolio {
+        display: block;
+        margin: 0px 20px;
+    }
+
+    .project {
+        padding: 15px;
+        margin-bottom: 70px;
+    }
+
+    .project__image {
+        width: 200px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1500px) {
+    .project p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
+    .main {
+        width: 72vw;
+        margin: 150px 14vw;
+    }
+
+    .project__image {
+        width: 250px;
+    }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1800px) {
+    .main {
+        width: 90vw;
+        margin: 150px 5vw;
+    }
+}
