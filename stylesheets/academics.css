@@ -21,12 +21,12 @@
 }
 
 .academics__schedule table {
-  width: 60%;
+  width: 35%;
   margin: 10px auto;
 }
 
 .academics__schedule th,
-td {
+.academics__schedule td {
   border: 1px solid var(--black);
   padding: 8px;
   text-align: center;
