@@ -31,7 +31,7 @@
 }
 
 .projects__options:hover {
-  transform: translateY(-40px);
+  transform: translateY(-20px);
 }
 
 .projects__options img {
@@ -71,6 +71,7 @@
 }
 
 .projects__more p:hover {
+  cursor: pointer;
   text-decoration: underline;
   text-underline-offset: 7px;
 
